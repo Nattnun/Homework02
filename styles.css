@@ -1,0 +1,73 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+  max-width: 1024px;
+  margin: auto;
+  font-family: "Anuphan";
+  background-color: rgb(255, 252, 248);
+}
+header {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+}
+header > img {
+  width: 100%;
+}
+nav {
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 12px;
+}
+.button-group {
+  display: flex;
+  gap: 10px;
+}
+.prev {
+  font-size: 40px;
+}
+.button-group > button {
+  border: none;
+  border-radius: 30px;
+  font-family: "Anuphan";
+  cursor: pointer;
+}
+.welcome {
+  font-size: 32px;
+  text-align: center;
+  margin-top: 60px;
+  color: coral;
+}
+.select-header {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 10px;
+}
+.menu {
+  margin-top: 30px;
+}
+.items-row {
+  min-height: 80px;
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+.items-row > div {
+  background-color: bisque;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 20px;
+  cursor: pointer;
+}
+
+.item > img {
+  width: 80%;
+}
